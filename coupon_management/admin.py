@@ -29,10 +29,10 @@ class RulesetAdmin(admin.ModelAdmin):
     list_display = ('__str__', 'allowed_users', 'max_uses', 'validity', )
 
 
-# @admin.register(CouponUser)
-# class CouponUserAdmin(admin.ModelAdmin):
-#     list_display = ('user', 'coupon', 'times_used', )
-#     actions = [reset_coupon_usage]
+@admin.register(CouponUser)
+class CouponUserAdmin(admin.ModelAdmin):
+    list_display = ('user', 'coupon', 'times_used', )
+    actions = [reset_coupon_usage]
 
 
 @admin.register(AllowedUsersRule)
