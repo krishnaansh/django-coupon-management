@@ -1,0 +1,14 @@
+django-coupon-management
+=========================
+
+CHANGELOG:
+----------
+
+v0.3:    
+    - Bug Fixes
+
+v0.2:
+    - Add Coupon User List in Admin Panel
+
+v0.1:
+    - Initial Release
