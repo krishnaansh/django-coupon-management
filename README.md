@@ -1,11 +1,11 @@
 # django-coupon-management
-##  A Django app that makes the use of coupons a simple task!
+##  A Django app that makes the use of coupon management and easy to handle!
 
-![PyPI v0.3](https://img.shields.io/badge/PyPI-v0.3-blue.svg)
+![PyPI v0.3.2](https://img.shields.io/badge/PyPI-v0.3.2-blue.svg)
 ![MIT License](https://img.shields.io/badge/License-MIT-lightgray.svg)
 ![Docs](https://img.shields.io/badge/docs-meh-orange.svg)
 
-django-simple-coupons is a simple Django app to create and use promotional coupons in your website.
+django-coupon-management is a coupon management to use of coupons validity and to boost your website.
 
 ### Downloading
 
@@ -48,3 +48,9 @@ And that's it! django-coupon-management should appear in your admin as ```Coupon
 ### Documentation
 
 ***[https://github.com/krishnaansh/django-coupon-management/blob/master/docs/README.md](https://github.com/krishnaansh/django-coupon-management/blob/master/docs/README.md)***
+
+### Download
+
+***[https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/v0.3.2.zip](https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/v0.3.2.zip)***
+
+

@@ -8,16 +8,18 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-coupon-management',
-    version='0.3.1',
+    version='0.3.2',
     packages=['coupon_management'],
     include_package_data=True,
     license='MIT License',
-    description='A Django app that makes the use of manage coupons a simple task!',
+    description='A Django app that makes the use of coupon management and easy to handle',
     long_description=README,
     long_description_content_type="text/markdown",
     url='https://github.com/krishnaansh/django-coupon-management',
     author='Krishna',
     author_email='krishnaansh997@gmail.com',
+    download_url='https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/v0.3.2.zip',
+    keywords =['django', 'coupon', 'management', 'coupon manage', 'promotion'],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
