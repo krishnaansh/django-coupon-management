@@ -51,6 +51,6 @@ And that's it! django-coupon-management should appear in your admin as ```Coupon
 
 ### Download
 
-***[https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/0.3.2.zip](https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/0.3.2.zip)***
+***[https://github.com/krishnaansh/django-coupon-management/releases/download/v1.0/v1.0.zip](https://github.com/krishnaansh/django-coupon-management/releases/download/v1.0/v1.0.zip)***
 
 
