@@ -2,19 +2,14 @@ from coupon_management.models import Coupon, CouponUser
 from django.utils import timezone
 
 
-INVALID_TEMPLATE = {
-    "valid": False,
-    "message": ""
-}
+INVALID_TEMPLATE = {"valid": False, "message": ""}
 
-VALID_TEMPLATE = {
-    "valid": True
-}
+VALID_TEMPLATE = {"valid": True}
 
 
 def assemble_invalid_message(message=""):
     response = INVALID_TEMPLATE
-    response['message'] = message
+    response["message"] = message
     return response
 
 
@@ -28,11 +23,14 @@ def validate_allowed_users_rule(coupon_object, user):
 
 def validate_max_uses_rule(coupon_object, user):
     max_uses_rule = coupon_object.ruleset.max_uses
-    if coupon_object.times_used >= max_uses_rule.max_uses and not max_uses_rule.is_infinite:
+    if (
+        coupon_object.times_used >= max_uses_rule.max_uses
+        and not max_uses_rule.is_infinite
+    ):
         return False
 
     try:
-        coupon_user = CouponUser.objects.get(user=user, coupon=coupon_object)
+        coupon_user = CouponUser.objects.get(user=user)
         if coupon_user.times_used >= max_uses_rule.uses_per_user:
             return False
     except CouponUser.DoesNotExist:
@@ -61,7 +59,9 @@ def validate_coupon(coupon_code, user):
     except Coupon.DoesNotExist:
         return assemble_invalid_message(message="Coupon does not exist!")
 
-    valid_allowed_users_rule = validate_allowed_users_rule(coupon_object=coupon_object, user=user)
+    valid_allowed_users_rule = validate_allowed_users_rule(
+        coupon_object=coupon_object, user=user
+    )
     if not valid_allowed_users_rule:
         return assemble_invalid_message(message="Invalid coupon for this user!")
 

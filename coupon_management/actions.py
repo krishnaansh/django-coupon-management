@@ -20,7 +20,9 @@ def delete_expired_coupons(modeladmin, request, queryset):
             coupon.delete()
             count += 1
 
-    ModelAdmin.message_user(modeladmin, request, "{0} Expired coupons deleted!".format(count))
+    ModelAdmin.message_user(
+        modeladmin, request, "{0} Expired coupons deleted!".format(count)
+    )
 
 
 # Actions short descriptions

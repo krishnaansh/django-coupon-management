@@ -5,6 +5,9 @@ CHANGELOG:
 ----------
 
 v0.3:    
+    - Support Django 4+ and bug fixes
+
+v0.3:    
     - Bug Fixes
 
 v0.2:
