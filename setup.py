@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name="django-coupon-management",
-    version="1.1",
+    version="1.2",
     packages=["coupon_management"],
     include_package_data=True,
     license="MIT License",
@@ -18,7 +18,7 @@ setup(
     url="https://github.com/krishnaansh/django-coupon-management",
     author="Krishna",
     author_email="krishnaansh997@gmail.com",
-    download_url="https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/v1.1.zip",
+    download_url="https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/v1.2.zip",
     keywords=[
         "django",
         "coupon",

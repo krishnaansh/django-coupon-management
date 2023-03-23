@@ -1,7 +1,7 @@
 # django-coupon-management
 ##  A Django app that makes the use of coupon management and easy to handle!
 
-![PyPI v1.1](https://img.shields.io/badge/PyPI-v1.1-blue.svg)
+![PyPI v1.2](https://img.shields.io/badge/PyPI-v1.2-blue.svg)
 ![MIT License](https://img.shields.io/badge/License-MIT-lightgray.svg)
 ![Docs](https://img.shields.io/badge/docs-meh-orange.svg)
 
@@ -51,6 +51,6 @@ And that's it! django-coupon-management should appear in your admin as ```Coupon
 
 ### Download
 
-***[https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/v1.1.zip](https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/v1.1.zip)***
+***[https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/v1.2.zip](https://github.com/krishnaansh/django-coupon-management/archive/refs/tags/v1.2.zip)***
 
 
