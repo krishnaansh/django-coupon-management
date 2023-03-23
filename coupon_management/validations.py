@@ -35,6 +35,11 @@ def validate_max_uses_rule(coupon_object, user):
             return False
     except CouponUser.DoesNotExist:
         pass
+    except CouponUser.MultipleObjectsReturned:
+        coupon_users = CouponUser.objects.filter(user=user)
+        for coupon_user in coupon_users:
+            if coupon_user.times_used >= max_uses_rule.uses_per_user:
+                return False
 
     return True
 

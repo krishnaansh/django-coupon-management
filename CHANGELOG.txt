@@ -3,7 +3,8 @@ django-coupon-management
 
 CHANGELOG:
 ----------
-
+v1.2:
+   - Bug fixes and Performance imporvement
 v1.1:    
     - Support Django 4+ and bug fixes
 
